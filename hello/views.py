@@ -10,3 +10,8 @@ def index(request):
 def greet(request, user):
     # Hello {user} page
     return render(request, 'hello/greet.html', {'user': user})
+
+def reverse_greet(request, user):
+    # Hello {user} page with reversed name
+    reversed_user = user[::-1]
+    return render(request, 'hello/reverse_greet.html', {'user': reversed_user})

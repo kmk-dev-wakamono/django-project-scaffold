@@ -1,6 +1,15 @@
 # Django hello skeleton
 
-Python 3.13.2
+## 環境構築について
+
+必要なもの
+
+- Python (>= 3.13.2)
+- Git
+
+### Python
+
+Python の実行環境のインストールについては、scoopやchocolateyなどのパッケージマネージャを利用するか、PythonのホームページからPythonの実行可能ファイルをダウンロード・インストールしてください。
 
 This repository contains a minimal Django project and a `hello` app with two pages:
 
@@ -16,3 +25,4 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 ```
+
