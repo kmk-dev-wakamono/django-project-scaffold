@@ -5,6 +5,7 @@
 必要なもの
 
 - Python (>= 3.13.2)
+- Git
 
 ### Python
 
