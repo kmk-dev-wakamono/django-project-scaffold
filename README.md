@@ -2,7 +2,7 @@
 
 ## 環境構築について
 
-hitsuyouな物
+hitsuyouなもの (hogehoge)
 
 - Python (>= 3.13.2)
 - Git
